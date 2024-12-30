@@ -1,0 +1,47 @@
+/* Basic Reset for Flexbox */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    flex: 1;
+}
+
+/* Styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.info-box p {
+    margin: 0.5em 0;
+}
+
+.option-box h5 {
+    font-size: 1.25rem; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+    margin-bottom: 0.5em;
+    color: #28a745; /* Keep the text-success color */
+}
+
+footer {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+footer a {
+    color: #555;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
